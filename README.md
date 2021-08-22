@@ -5,8 +5,10 @@ TestNG RestAssured API framework to automate REST Services
 - Run testng.xml or execute 'mvn clean test' command to trigger execution
 
 # Reporting
-- Extent Reports
-- log4j
+- Extent Reports - HTML execution reports are generated at "\\spacexapi\reports\Automation.html"
+- log4j - Execution logs are generated and stored at "\\spacexapi\spacex-api-restassured.log"
+
+
 
 # Maven POM file contains dependencies for 
 - RestAssured
