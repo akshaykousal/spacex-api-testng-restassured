@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/git/spacexapi">
+        <classes>
+            <class name="test.java.TestGetAllLaunches">
+                <methods>
+                    <include name="verifyGetAll"/>
+                </methods>
+            </class>
+            <class name="test.java.TestGetLatestLaunches">
+                <methods>
+                    <include name="verifyGetAll"/>
+                </methods>
+            </class>
+            <class name="test.java.TestPostQueryLaunches">
+                <methods>
+                    <include name="verifyPost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
